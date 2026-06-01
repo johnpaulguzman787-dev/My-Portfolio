@@ -1,0 +1,548 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="John Paul Guzman – Software Developer & UI/UX Designer. Building scalable web apps and intuitive digital experiences." />
+  <meta name="keywords" content="software developer, UI/UX designer, full-stack, web development, portfolio, Philippines" />
+  <meta name="author" content="John Paul Guzman" />
+  <title>John Paul Guzman — Software Developer & UI/UX Designer</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet" />
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Lora:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- LOADER -->
+  <div id="loader">
+    <div class="loader-inner">
+      <div class="loader-initials">JPG</div>
+      <div class="loader-track"><div class="loader-progress"></div></div>
+    </div>
+  </div>
+
+  <!-- NAVBAR -->
+  <nav id="navbar" class="navbar navbar-expand-lg fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="#hero">
+        <span class="brand-text">John Paul<span class="brand-dot">.</span></span>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-label="Toggle navigation">
+        <span class="bar"></span><span class="bar"></span><span class="bar"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto align-items-lg-center gap-lg-1">
+          <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+          <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+          <li class="nav-item"><a class="nav-link" href="#experience">Experience</a></li>
+          <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section id="hero" class="hero-section">
+    <div class="hero-bg-shapes">
+      <div class="shape shape-1"></div>
+      <div class="shape shape-2"></div>
+      <div class="shape shape-3"></div>
+    </div>
+    <div class="container">
+      <div class="row align-items-center min-vh-hero">
+        <div class="col-lg-6 hero-left" data-aos="fade-right" data-aos-delay="100">
+          <div class="hero-eyebrow">
+            <span class="eyebrow-dot"></span>
+            Available for new opportunities
+          </div>
+          <h1 class="hero-heading">
+            Hi, I'm <span class="hero-name-blue">John Paul</span><br />
+            <span class="hero-name-outline">Guzman</span>
+          </h1>
+          <p class="hero-role">Software Developer <span class="role-amp">&amp;</span> UI/UX Designer</p>
+          <p class="hero-bio">
+            Crafting scalable web applications and intuitive digital experiences that make a real impact — from concept to deployment.
+          </p>
+          <div class="hero-cta-group">
+            <a href="#projects" class="btn-blue">
+              <i class="fas fa-rocket me-2"></i>View Projects
+            </a>
+          </div>
+          <div class="hero-stats-row">
+            <div class="hero-stat">
+              <span class="stat-val" data-count="3">2</span><span class="stat-plus">+</span>
+              <span class="stat-lbl">Years Exp.</span>
+            </div>
+            <div class="hero-stat-sep"></div>
+            <div class="hero-stat">
+              <span class="stat-val" data-count="15">2</span><span class="stat-plus">+</span>
+              <span class="stat-lbl">Projects</span>
+            </div>
+            <div class="hero-stat-sep"></div>
+          </div>
+        </div>
+        <div class="col-lg-6 d-flex justify-content-center justify-content-lg-end mt-5 mt-lg-0" data-aos="fade-left" data-aos-delay="200">
+        <div class="hero-card-wrap">
+            <div class="hero-profile-card">
+            
+            <div class="profile-avatar">
+                <img src="images/profile1.png" alt="John Paul Guzman">
+            </div>
+
+            <div class="profile-info">
+                <div class="profile-name">John Paul Guzman</div>
+                <div class="profile-title">Software Developer · UI/UX Designer</div>
+                <div class="profile-location">
+                <i class="fas fa-map-marker-alt me-1"></i>Philippines
+                </div>
+            </div>
+
+            <div class="profile-skills-preview">
+                <span>PHP</span>
+                <span>Laravel</span>
+                <span>MySQL</span>
+                <span>Python</span>
+                <span>Git</span>
+            </div>
+            </div>
+
+            <div class="hero-float-badge badge-top">
+            <i class="fas fa-code"></i> Software Developer
+            </div>
+
+            <div class="hero-float-badge badge-bottom">
+            <i class="fas fa-palette"></i> UI/UX
+            </div>
+        </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about" class="section-pad bg-white">
+    <div class="container">
+      <div class="row align-items-center g-5">
+        <div class="col-lg-5" data-aos="fade-right">
+          <div class="about-img-block">
+            <div class="about-img-placeholder">
+                <img src="images/profile.png" alt="John Paul Guzman">
+                </div>
+            <div class="about-img-badge">
+            Open to Work
+            </div>
+            <div class="about-blue-block"></div>
+          </div>
+        </div>
+        <div class="col-lg-7" data-aos="fade-left">
+          <div class="section-label-wrap">
+            <span class="section-label">About Me</span>
+          </div>
+          <h2 class="section-heading">Crafting Innovative <em>Software Experiences</em></h2>
+          <p class="body-text">
+            Software Developer with a strong foundation in software development, manual testing, and UI/UX design, dedicated to building reliable, efficient, and user-focused digital solutions. Experienced in developing web applications using Laravel, PHP, JavaScript, and modern front-end technologies, with a keen eye for creating intuitive and responsive user experiences.
+          </p>
+          <p class="body-text">
+            Skilled in translating business requirements into scalable systems, designing clean user interfaces, managing databases, and producing comprehensive technical documentation. Adept at collaborating across development and testing workflows to ensure software quality, optimize processes, and deliver maintainable, high-performing applications. Passionate about continuous learning, problem-solving, and leveraging technology to create meaningful impact through innovative solutions.
+          </p>
+          <div class="about-checklist">
+            <div class="check-item"><i class="fas fa-check"></i> Full-Stack Web Development</div>
+            <div class="check-item"><i class="fas fa-check"></i> User-Centered UI/UX Design</div>
+            <div class="check-item"><i class="fas fa-check"></i> Quality Assurance Tester</div>
+            <div class="check-item"><i class="fas fa-check"></i> Agile &amp; Collaborative Development</div>
+          </div>
+          <div class="about-meta-row">
+            <div class="meta-pill"><i class="fas fa-map-marker-alt"></i> Philippines</div>
+            <div class="meta-pill"><i class="fas fa-graduation-cap"></i> BS Information Technology</div>
+            <div class="meta-pill"><i class="fas fa-briefcase"></i> Software Developer</div>
+          </div>
+          <a href="assets/Guzman_JohnPaul_Resume.pdf"
+            download="John-Paul-Guzman-CV.pdf"
+            class="btn-blue mt-4 d-inline-flex">
+            <i class="fas fa-download me-2"></i>Download CV
+            </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills" class="section-pad bg-light-grey">
+    <div class="container">
+      <div class="section-header text-center" data-aos="fade-up">
+        <span class="section-label">Skills</span>
+        <h2 class="section-heading">My Technical <em>Arsenal</em></h2>
+        <p class="section-sub">Technologies and tools I work with every day</p>
+      </div>
+      <div class="row g-4 mt-2">
+
+        <!-- Languages -->
+        <div class="col-md-6 col-lg-4" data-aos="fade-up">
+            <div class="skill-card">
+            <div class="skill-card-top">
+                <div class="skill-icon-wrap" style="--c:#3b82f6">
+                <i class="fas fa-code"></i>
+                </div>
+                <h4>Languages</h4>
+            </div>
+
+            <div class="skill-list">
+                <span class="skill-tag">Java</span>
+                <span class="skill-tag">Python</span>
+                <span class="skill-tag">C#</span>
+                <span class="skill-tag">Dart</span>
+                <span class="skill-tag">PHP</span>
+                <span class="skill-tag">JavaScript</span>
+            </div>
+            </div>
+        </div>
+
+        <!-- Frontend -->
+        <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="100">
+            <div class="skill-card">
+            <div class="skill-card-top">
+                <div class="skill-icon-wrap" style="--c:#0ea5e9">
+                <i class="fas fa-laptop-code"></i>
+                </div>
+                <h4>Frontend</h4>
+            </div>
+
+            <div class="skill-list">
+                <span class="skill-tag">HTML5</span>
+                <span class="skill-tag">CSS3</span>
+                <span class="skill-tag">JavaScript</span>
+                <span class="skill-tag">Bootstrap</span>
+                <span class="skill-tag">Tailwind CSS</span>
+                <span class="skill-tag">Figma</span>
+            </div>
+            </div>
+        </div>
+
+        <!-- Backend -->
+        <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="200">
+            <div class="skill-card">
+            <div class="skill-card-top">
+                <div class="skill-icon-wrap" style="--c:#6366f1">
+                <i class="fas fa-server"></i>
+                </div>
+                <h4>Backend</h4>
+            </div>
+
+            <div class="skill-list">
+                <span class="skill-tag">PHP</span>
+                <span class="skill-tag">MySQL</span>
+                <span class="skill-tag">PostgreSQL</span>
+                <span class="skill-tag">Firebase</span>
+                <span class="skill-tag">REST API Integration</span>
+            </div>
+            </div>
+        </div>
+
+        <!-- Frameworks -->
+        <div class="col-md-6 col-lg-6" data-aos="fade-up" data-aos-delay="300">
+            <div class="skill-card">
+            <div class="skill-card-top">
+                <div class="skill-icon-wrap" style="--c:#8b5cf6">
+                <i class="fas fa-layer-group"></i>
+                </div>
+                <h4>Frameworks</h4>
+            </div>
+
+            <div class="skill-list">
+                <span class="skill-tag">Laravel</span>
+                <span class="skill-tag">Flutter</span>
+                <span class="skill-tag">Bootstrap</span>
+            </div>
+            </div>
+        </div>
+
+        <!-- Tools & Platforms -->
+        <div class="col-md-6 col-lg-6" data-aos="fade-up" data-aos-delay="400">
+            <div class="skill-card">
+            <div class="skill-card-top">
+                <div class="skill-icon-wrap" style="--c:#14b8a6">
+                <i class="fas fa-tools"></i>
+                </div>
+                <h4>Tools & Platforms</h4>
+            </div>
+
+            <div class="skill-list">
+                <span class="skill-tag">Git</span>
+                <span class="skill-tag">GitLab</span>
+                <span class="skill-tag">Jira</span>
+            </div>
+            </div>
+        </div>
+
+        </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects" class="section-pad bg-white">
+    <div class="container">
+      <div class="section-header text-center" data-aos="fade-up">
+        <span class="section-label">Projects</span>
+        <h2 class="section-heading">Featured <em>Work</em></h2>
+        <p class="section-sub">Real-world applications built with purpose and precision</p>
+      </div>
+      <div class="row g-4 mt-2 justify-content-center">
+
+        <div class="col-lg-6" data-aos="fade-up" data-aos-delay="80">
+          <div class="project-card">
+            <div class="project-thumb">
+              <div class="project-thumb-inner hris-bg">
+                <i class="fas fa-users-cog"></i>
+              </div>
+              <span class="project-type-badge">Web Application</span>
+            </div>
+            <div class="project-content">
+              <h3 class="project-title">HRIS Payroll System</h3>
+              <p class="project-desc">A comprehensive Human Resource Information System with payroll management, employee records, attendance tracking, leave management, and automated salary computation.</p>
+              <div class="project-stack">
+                <span>Laravel</span><span>MySQL</span><span>PHP</span><span>JavaScript</span><span>HTML/CSS</span>
+              </div>
+              <div class="project-actions">
+                <a href="https://hristest.medisource.com/" target="_blank" class="btn-blue btn-sm-custom">
+                    <i class="fas fa-external-link-alt me-2"></i>Test Demo
+                </a>
+
+                <a href="https://github.com/johnpaulguzman787-dev/HRIS" target="_blank" class="btn-ghost btn-sm-custom">
+                    <i class="fab fa-github me-2"></i>GitHub
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-6" data-aos="fade-up" data-aos-delay="160">
+          <div class="project-card">
+            <div class="project-thumb">
+              <div class="project-thumb-inner vr-bg">
+                <i class="fas fa-vr-cardboard"></i>
+              </div>
+              <span class="project-type-badge">Virtual Reality | Web Application</span>
+            </div>
+            <div class="project-content">
+              <h3 class="project-title">InTraVa: VR Training Application</h3>
+              <p class="project-desc">A multi-platform VR training application for Urdaneta City University's College of Health Sciences, enabling healthcare students to safely practice invasive medical procedures through immersive simulation.</p>
+              <div class="project-stack">
+                <span>Unity</span><span>C#</span><span>VR</span><span>Laravel</span><span>Medical Sim</span>
+              </div>
+              <div class="project-actions">
+                <a href="https://drive.google.com/file/d/1K-BeWG2AtIHMFRVUpYeorzysDws2H3sQ/view?usp=sharing"
+                    target="_blank"
+                    class="btn-blue btn-sm-custom">
+                    <i class="fas fa-play-circle me-2"></i>Watch Demo
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- EXPERIENCE -->
+  <section id="experience" class="section-pad bg-light-grey">
+    <div class="container">
+      <div class="section-header text-center" data-aos="fade-up">
+        <span class="section-label">Experience</span>
+        <h2 class="section-heading">My <em>Journey</em></h2>
+        <p class="section-sub">Education, achievements, and professional milestones</p>
+      </div>
+      <div class="timeline-wrap mt-5">
+
+        <div class="tl-item" data-aos="fade-up" data-aos-delay="320">
+          <div class="tl-marker"></div>
+          <div class="tl-card">
+            <div class="tl-meta">
+              <span class="tl-year">Februray 2026 - May 2026</span>
+              <span class="tl-tag project">Project</span>
+            </div>
+            <h4 class="tl-title">HRIS Payroll System Developer</h4>
+            <p class="tl-org"><i class="fas fa-code me-2"></i>Intership Project</p>
+            <p class="tl-desc">Designed and built a complete HR and payroll management system with employee records, attendance tracking, leave management, and automated computations.</p>
+          </div>
+        </div>
+
+        <div class="tl-item" data-aos="fade-up" data-aos-delay="160">
+          <div class="tl-marker"></div>
+          <div class="tl-card">
+            <div class="tl-meta">
+              <span class="tl-year">March 2025 – January 2026</span>
+              <span class="tl-tag research">Research</span>
+            </div>
+            <h4 class="tl-title">Capstone Researcher - InTraVa: Multi-Platform VR Training App for Nursing Students</h4>
+            <p class="tl-org"><i class="fas fa-university me-2"></i>Urdaneta City University</p>
+            <p class="tl-desc">Led development of a multi-platform VR training application for healthcare education, integrating immersive simulation for invasive medical procedure training.</p>
+          </div>
+        </div>
+
+        <div class="tl-item" data-aos="fade-up" data-aos-delay="240">
+          <div class="tl-marker"></div>
+          <div class="tl-card">
+            <div class="tl-meta">
+              <span class="tl-year">August 2022 – May 2026</span>
+              <span class="tl-tag edu">Education</span>
+            </div>
+            <h4 class="tl-title">Bachelor of Science in Information Technology</h4>
+            <p class="tl-org"><i class="fas fa-graduation-cap me-2"></i>Urdaneta City University</p>
+            <p class="tl-desc">Completed a rigorous CS program covering software engineering, algorithms, database systems, UI/UX design, and systems development.</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICES -->
+  <section id="services" class="section-pad bg-white">
+    <div class="container">
+      <div class="section-header text-center" data-aos="fade-up">
+        <span class="section-label">Services</span>
+        <h2 class="section-heading">What I <em>Offer</em></h2>
+        <p class="section-sub">End-to-end digital solutions tailored to your needs</p>
+      </div>
+      <div class="row g-4 mt-2">
+
+  <!-- Software Development -->
+  <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="80">
+    <div class="svc-card">
+      <div class="svc-icon">
+        <i class="fas fa-laptop-code"></i>
+      </div>
+      <h4 class="svc-title">Software Development</h4>
+      <p class="svc-desc">
+        Building scalable and maintainable software solutions tailored to business and organizational needs.
+      </p>
+      <ul class="svc-list">
+        <li>Custom System Development</li>
+        <li>Business Process Automation</li>
+        <li>Full-Stack Development</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- Web Development -->
+  <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="160">
+    <div class="svc-card">
+      <div class="svc-icon">
+        <i class="fas fa-globe"></i>
+      </div>
+      <h4 class="svc-title">Web Development</h4>
+      <p class="svc-desc">
+        Developing responsive and modern web applications using Laravel, PHP, MySQL, JavaScript, and Bootstrap.
+      </p>
+      <ul class="svc-list">
+        <li>Responsive Websites</li>
+        <li>Laravel Applications</li>
+        <li>REST API Integration</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- UI/UX Design -->
+  <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="240">
+    <div class="svc-card">
+      <div class="svc-icon">
+        <i class="fas fa-palette"></i>
+      </div>
+      <h4 class="svc-title">UI/UX Design</h4>
+      <p class="svc-desc">
+        Creating intuitive, user-friendly, and visually appealing interfaces that improve user experience.
+      </p>
+      <ul class="svc-list">
+        <li>Wireframing & Prototyping</li>
+        <li>Mobile-First Design</li>
+        <li>Figma Design Systems</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- System Testing -->
+  <div class="col-md-6 col-lg-6" data-aos="fade-up" data-aos-delay="320">
+    <div class="svc-card">
+      <div class="svc-icon">
+        <i class="fas fa-bug"></i>
+      </div>
+      <h4 class="svc-title">System Testing & QA</h4>
+      <p class="svc-desc">
+        Ensuring application quality through comprehensive testing, debugging, and performance validation.
+      </p>
+      <ul class="svc-list">
+        <li>Manual Testing</li>
+        <li>Bug Tracking & Debugging</li>
+        <li>Cross-Platform Testing</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- Database Development -->
+  <div class="col-md-6 col-lg-6" data-aos="fade-up" data-aos-delay="400">
+    <div class="svc-card">
+      <div class="svc-icon">
+        <i class="fas fa-database"></i>
+      </div>
+      <h4 class="svc-title">Database Development</h4>
+      <p class="svc-desc">
+        Designing and managing secure, optimized, and scalable databases for modern applications.
+      </p>
+      <ul class="svc-list">
+        <li>MySQL & PostgreSQL</li>
+        <li>Database Design</li>
+        <li>Query Optimization</li>
+      </ul>
+    </div>
+  </div>
+
+</div>
+    </div>
+  </section>    
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="row g-4">
+        <div class="col-lg-4">
+          <div class="footer-brand-wrap">
+            <span class="footer-brand-name">John Paul<span class="brand-dot">.</span></span>
+            <p class="footer-tagline">Software Developer &amp; UI/UX Designer crafting impactful digital experiences from the Philippines.</p>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <h6 class="footer-col-title">Quick Links</h6>
+          <div class="footer-nav">
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#experience">Experience</a>
+            <a href="#services">Services</a>    
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <h6 class="footer-col-title">Connect</h6>
+          <div class="social-row">
+            <a href="https://linkedin.com/in/guzman00" target="_blank" class="s-btn" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+            <a href="mailto:dev.johnpaulguzman00@gmail.com" class="s-btn" aria-label="Email"><i class="fas fa-envelope"></i></a>
+            <a href="https://github.com/johnpaulguzman787-dev" class="s-btn" aria-label="GitHub"><i class="fab fa-github"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- BACK TO TOP -->
+  <button id="backToTop" class="btt-btn" aria-label="Back to top">
+    <i class="fas fa-arrow-up"></i>
+  </button>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
